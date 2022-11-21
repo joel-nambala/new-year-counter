@@ -10,4 +10,71 @@ html {
 
 body {
   font-family: sans-serif;
+  height: 100vh;
+  background-image: url(./new-year.jpeg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  backdrop-filter: blur(5px);
+  box-shadow: 0 0 30px #333;
+  padding: 4rem 10rem;
+}
+
+.countdown-title {
+  letter-spacing: 0.3rem;
+  font-size: 3.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.countdown-year {
+  letter-spacing: 0.3rem;
+  font-size: 9.2rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.countdown-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+
+.countdown-labels {
+  width: 10rem;
+  height: 10rem;
+  background-color: rgb(244, 246, 247, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.countdown-labels h2 {
+  letter-spacing: 0.2rem;
+  font-size: 3.2rem;
+  color: #fff;
+}
+
+.countdown-labels p {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #2b4f94;
+  text-align: center;
+  padding: 0.5rem 0;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
 }
